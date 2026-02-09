@@ -1,0 +1,140 @@
+{
+  "response": {
+    
+    "subdomain_details": "Subdomain Details Updated",
+    "get_profile": "Session Profile Captured",
+    "data_source": {
+      "cols": [
+        {
+          "label": "sessionId",
+          "type": "string",
+          "value": "sessionId"
+        },
+        {
+          "label": "channel",
+          "type": "string",
+          "value": "channel",
+          "list_filters": [
+            "voice",
+            "chat",
+            "Whatsapp",
+            "Mail",
+            "SMS"
+          ]
+        },
+        {
+          "label": "phone",
+          "type": "string",
+          "value": "phone",
+          "search_filters": true
+        },
+        {
+          "label": "name",
+          "type": "string",
+          "value": "name"
+        },
+        {
+          "label": "createdAt",
+          "type": "datetime",
+          "value": "createdAt"
+        },
+        {
+          "label": "status",
+          "type": "string",
+          "value": "status"
+        },
+        {
+          "label": "priority",
+          "type": "string",
+          "value": "priority"
+        },
+        {
+          "label": "waiting",
+          "type": "string",
+          "value": "waiting"
+        },
+        {
+          "label": "claimed",
+          "type": "string",
+          "value": "claimed"
+        },
+        {
+          "label": "Claim",
+          "type": "href",
+          "value": "Claim"
+        },
+        {
+          "label": "Transfer",
+          "type": "href",
+          "value": "Transfer"
+        },
+        {
+          "label": "Cancel",
+          "type": "href",
+          "value": "Cancel"
+        },
+        {
+          "label": "domain",
+          "type": "string",
+          "value": "domain"
+        },
+        {
+          "label": "token",
+          "type": "string",
+          "value": "token"
+        },
+        {
+          "label": "isDuplicatePhone",
+          "type": "boolean",
+          "value": "isDuplicatePhone"
+        }
+      ],
+      "rows": [
+        [
+          "39645a15-28bf-47c5-ac22-5e5039126927",
+          "chat",
+          "+254792049583",
+          "sadhsadyasyut",
+          "2025-09-24T07:37:55.547405+00:00",
+          "waiting",
+          "Normal",
+          "5m 42s",
+          "false",
+          "{\"url\": \"/ACTION/CLAIM/\", \"service\": \"CLAIM_SESSION\", \"icon\": \"icons:check\", \"params\": {\"session_id\": \"39645a15-28bf-47c5-ac22-5e5039126927\", \"channel\": \"chat\"}}",
+          null,
+          null,
+          "interintel.eu",
+          "v1|1758699818|39645a15-28bf-47c5-ac22-5e5039126927|interintel.eu|5b5c0c62f78a1a09e61fd090a6df0e985eac9a8ed78a2c90fa5b33936f54eb85",
+          false
+        ],
+        [
+          "39645a15-28bf-47c5-ac22-5e5039126928",
+          "chat",
+          "+254791610102",
+          "sadhsadyasyut",
+          "2025-09-24T07:37:55.547405+00:00",
+          "terminated",
+          "Normal",
+          "5m 42s",
+          "false",
+          "{\"url\": \"/ACTION/CLAIM/\", \"service\": \"CLAIM_SESSION\", \"icon\": \"icons:check\", \"params\": {\"session_id\": \"39645a15-28bf-47c5-ac22-5e5039126927\", \"channel\": \"chat\"}}",
+          null,
+          null,
+          "interintel.eu",
+          "v1|1758699818|39645a15-28bf-47c5-ac22-5e5039126927|interintel.eu|5b5c0c62f78a1a09e61fd090a6df0e985eac9a8ed78a2c90fa5b33936f54eb85",
+          false
+        ]
+      ],
+      "lines": [],
+      "groups": [],
+      "data": [],
+      "min_id": 0,
+      "max_id": 0,
+      "row_count": 5
+    }
+  },
+  "action_id": 54,
+  "response_status": "00",
+  "overall_status": "00",
+  "last_response": ""
+}

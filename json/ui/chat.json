@@ -1,0 +1,103 @@
+{
+    "response": {
+        "get_interface": {
+            "this_page_inputs": {
+                "1": {
+                    "2": {
+                        "page_var": [
+                            "Chat",
+                            "list"
+                        ],
+                        "Chat": {
+                            "2": {
+                                "Chat": {
+                                    
+                                    "5": [
+                                        "Chat view",
+                                        "CHAT",
+                                        "1",
+                                        "1000",
+                                        "chat",
+                                        null,
+                                        null,
+                                        null,
+                                        null,
+                                        false,
+                                        "",
+                                        "DATA SOURCE",
+                                        null,
+                                        null,
+                                         "{\"websocketUrl\": \"wss://demo-server-uzwr.onrender.com/messages\"}"
+                                    ]
+                                    
+                                }
+                            }
+                        }
+                    },
+                    "section_var": [
+                        "Chat page",
+                        null
+                    ]
+                }
+            }
+        },
+        "get_section": {
+            "this_page_inputs": {
+                "1": {
+                    "2": {
+                        "page_var": [
+                            "Chat page",
+                            "list"
+                        ],
+                        "Chat page": {
+                            "2": {
+                                "Chat page": {
+                                    "input_var": [
+                                        "Chat",
+                                        "FORM",
+                                        "1",
+                                        "1000",
+                                        "VENDOR BUY FLOAT",
+                                        null,
+                                        null,
+                                        "24|24|24",
+                                        null,
+                                        false,
+                                        "",
+                                        "VENDOR BUY FLOAT",
+                                        900,
+                                        null,
+                                        "{}"
+                                    ],
+                                    "5": [
+                                        "Chat view",
+                                        "CHAT",
+                                        "1",
+                                        "1000",
+                                        "chat",
+                                        null,
+                                        null,
+                                        null,
+                                        null,
+                                        false,
+                                        "",
+                                        "DATA SOURCE",
+                                        null,
+                                        null, 
+                                        "{\"websocketUrl\": \"wss://demo-server-uzwr.onrender.com/messages\"}"
+                                    ]
+                                    
+                                }
+                            }
+                        }
+                    },
+                    "section_var": [
+                        "Vendor Airtime",
+                        null
+                    ]
+                }
+            }
+        }
+    },
+    "response_status": "00"
+}
