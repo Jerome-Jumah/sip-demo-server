@@ -51,7 +51,7 @@ export const server = http.createServer((req: http.IncomingMessage, res: http.Se
   console.log("Resolved endpoint:", endpoint);
 
   switch (endpoint) {
-    case "HOME":
+    case "NENACALL HOME":
     case "LANDING PAGE":
       return loadJsonFromFile("json/ui/home.json", res);
     case "CALL HISTORY":
