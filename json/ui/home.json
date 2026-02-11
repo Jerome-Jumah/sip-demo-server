@@ -27,25 +27,16 @@
       "design": "dsv3.0"
     },
     "get_interface": {
-
       "this_page_inputs": {
-        
         "9": {
-          "section_var": [
-            "Services", 
-            "icons:view-carousel"
-          ],
-          
-          
-          "1": { 
-            "page_var": [
-              "Nikobizz Services",
-              "list"
-            ],
+          "section_var": ["Services", "icons:view-carousel"],
+
+          "1": {
+            "page_var": ["Nikobizz Services", "list"],
             "Nikobizz Services": {
               "3": {
                 "Nikobizz Recent Transactions": {
-                  "input_var": [ 
+                  "input_var": [
                     "Nikobizz Recent Transactions",
                     "FORM",
                     "0",
@@ -62,7 +53,7 @@
                     null,
                     "{}"
                   ],
-                  "3": [ 
+                  "3": [
                     "Recent transactions",
                     "DATALIST ELEMENT",
                     "1",
@@ -164,31 +155,26 @@
       "all_pages": {
         "9": {
           "Services": {
-            "1": [
-              "Nikobizz Services",
-              "list"
-            ]
+            "1": ["Nikobizz Services", "list"]
           }
         }
       }
     },
     "get_section": {
+      "scaffold_config": {
+        "showAppBar": false,
+        "contentPadding": "0|0|0|0",
+        "useSafeArea": true
+      },
       "this_page_inputs": {
-          
         "10": {
-          "section_var": [
-            "Nenacall home",
-            "icons:home"
-          ],
-          "3": {
-            "page_var": [
-              "Live queue",
-              "icons:queue"
-            ],
+          "section_var": ["Nenacall home", "icons:home"],
+          "1": {
+            "page_var": ["Live queue", "icons:queue"],
             "Live queue": {
               "1": {
                 "Live queue": {
-                   "input_var": [
+                  "input_var": [
                     "Live queue",
                     "FORM",
                     "0",
@@ -224,142 +210,88 @@
                   ]
                 }
               }
-              
             }
           },
-          
+
           "2": {
-            "page_var": [
-              "Recents",
-              "icons:recents"
-            ],
-            "Recents": {
-              "1": {
-                "Recents": {
-                   "input_var": [
-                    "Plans",
+            "page_var": ["Dialpad", "icons:phone"],
+            "Dialpad": {
+              "2": {
+                "Dialpad": {
+                  "input_var": [
+                    "Dialpad",
                     "FORM",
-                    "0",
-                    "100",
-                    "form",
+                    "1",
+                    "1000",
+                    "TOPUP",
                     null,
                     null,
                     "24|24|24",
                     null,
                     false,
                     "",
-                    "CHOOSE_PLAN",
+                    "TOPUP",
                     900,
                     null,
                     "{}"
                   ],
-                    "2": [
-                        "Call history view",
-                        "CALL HISTORY",
-                        "1",
-                        "1000",
-                        "call_history",
-                        null,
-                        null,
-                        null,
-                        null,
-                        false,
-                        "",
-                        "DATA SOURCE",
-                        null,
-                        null,
-                        "{}"
-                    ]
-                }
-              }
-            }
-          },
-          "1": {
-            "page_var": [
-              "Dialpad",
-              "icons:dialpad"
-            ],
-            "Dialpad": {
-              "2": {
-                "Dialpad": {
-                "input_var": [
-                        "Dialpad",
-                        "FORM",
-                        "1",
-                        "1000",
-                        "TOPUP",
-                        null,
-                        null,
-                        "24|24|24",
-                        null,
-                        false,
-                        "",
-                        "TOPUP",
-                        900,
-                        null,
-                        "{}"
-                    ],
-                    "5": [
-                        "Dialpad",
-                        "DIALPAD",
-                        "1",
-                        "1000",
-                        "suggestions",
-                        null,
-                        null,
-                        null,
-                        null,
-                        false,
-                        "",
-                        "DATA SOURCE",
-                        null,
-                        null,
-                        "{}"
-                    ]
-                    
+                  "5": [
+                    "Dialpad",
+                    "DIALPAD",
+                    "1",
+                    "1000",
+                    "suggestions",
+                    null,
+                    null,
+                    null,
+                    null,
+                    false,
+                    "",
+                    "DATA SOURCE",
+                    null,
+                    null,
+                    "{}"
+                  ]
                 }
               },
-             "1": {
+              "1": {
                 "Nenacall": {
-                "input_var": [
-                        "Nenacall Form",
-                        "NENACALL",
-                        "1",
-                        "1000",
-                        "TOPUP",
-                        null,
-                        null,
-                        "24|24|24",
-                        null,
-                        false,
-                        "",
-                        "TOPUP",
-                        900,
-                        null,
-                        "{}"
-                    ],
-                     "6": [
-                        "nenacall",
-                        "NENACALL",
-                        "1",
-                        "1000",
-                        "nenacall",
-                        null,
-                        null,
-                        null,
-                        null,
-                        false,
-                        "",
-                        "DATA SOURCE",
-                        null,
-                        null,
-                        "{\"domain\":\"freeswitch-stag.nenasasa.com\",\"port\":\"7443\",\"display_name\":\"John Doe\", \"password\":\"a828ea12-e142-4193-9204-2ef66642d18e\",\"addresses\":[\"wss://freeswitch-stag.nenasasa.com:7443\"],\"extension\":\"1005\",\"wss_domain\":\"ws://localhost:3000\"}"
-
-                    ]
-                    
-                    
+                  "input_var": [
+                    "Nenacall Form",
+                    "NENACALL",
+                    "1",
+                    "1000",
+                    "TOPUP",
+                    null,
+                    null,
+                    "24|24|24",
+                    null,
+                    false,
+                    "",
+                    "TOPUP",
+                    900,
+                    null,
+                    "{}"
+                  ],
+                  "6": [
+                    "nenacall",
+                    "NENACALL",
+                    "1",
+                    "1000",
+                    "nenacall",
+                    null,
+                    null,
+                    null,
+                    null,
+                    false,
+                    "",
+                    "DATA SOURCE",
+                    null,
+                    null,
+                    "{\"domain\":\"freeswitch-stag.nenasasa.com\",\"port\":\"7443\",\"display_name\":\"John Doe\", \"password\":\"a828ea12-e142-4193-9204-2ef66642d18e\",\"addresses\":[\"wss://freeswitch-stag.nenasasa.com:7443\"],\"extension\":\"1005\",\"wss_domain\":\"ws://localhost:3000\"}"
+                  ]
                 }
-              } 
+              }
             }
           }
         }
